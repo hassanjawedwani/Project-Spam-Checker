@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"/>
+    <title>Spam Checker</title>
+</head>
+<body>
+
+    <header>
+        <h1>Is this Spam?</h1>
+        <p class="description">Enter a phrase to check if it would be marked as spam or not.</p>
+    </header>
+
+    <main>
+    <label for="input-area">Message:</label>
+    <textarea 
+    id="input-area" 
+    placeholder="Enter message here"
+    type="text"
+    cols="40"
+    rows="8"
+    ></textarea>
+    <p id="result"></p>
+    <button type="button" id="check-button">check message</button>
+    </main>
+
+    <footer>
+        &copy; freecodecamp
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
